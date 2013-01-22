@@ -172,7 +172,7 @@ module ActiveRecord
       ADAPTER_NAME                = 'SQLServer'.freeze
       VERSION                     = '2.3.7'.freeze
       DATABASE_VERSION_REGEXP     = /Microsoft SQL Server\s+(\d{4})/
-      SUPPORTED_VERSIONS          = [2000,2005,2008].freeze
+      SUPPORTED_VERSIONS          = [2000,2005,2008,2012].freeze
       LIMITABLE_TYPES             = ['string','integer','float','char','nchar','varchar','nvarchar'].freeze
       LOST_CONNECTION_EXCEPTIONS  = {
         :odbc   => ['ODBC::Error'],
